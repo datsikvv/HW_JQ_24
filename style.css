@@ -1,0 +1,43 @@
+div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+li	{
+	float: left;
+	list-style: none;
+    margin: 10px 10px;
+    font-size: 20px;
+}
+
+.active {
+    background-color: coral;
+}
+
+.btn {
+	color: #0e0e0e;
+	padding: 5px 25px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+.sub {
+    background-color: #a09c9c; 
+    min-width: 130px;
+    border-radius: 5px;
+    position:absolute;
+    height: 0;
+    overflow: hidden;
+    top: 70px;
+    padding: 0px;
+    margin-left: -25px;
+}
+
+.sub li {
+    float: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: red;
+    text-align: center;
+}
